@@ -30,7 +30,7 @@ body {
 }
 
 .navbar-logo img {
-  height: 40px;
+  width: 100px;
 }
 
 .navbar-links {
@@ -63,7 +63,6 @@ body {
 .navbar-cart {
   display: flex;
   align-items: center;
-  padding: 5px 10px;
   border-radius: 20px;
   color: var(--primary-color);
   font-weight: bold;
@@ -127,7 +126,7 @@ body {
 @media (max-width: 768px) {
   .navbar-links {
     position: absolute;
-    top: 60px;
+    top: 110px;
     left: 0;
     width: 100%;
     flex-direction: column;
