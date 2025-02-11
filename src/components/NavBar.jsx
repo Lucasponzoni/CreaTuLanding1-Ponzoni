@@ -17,7 +17,7 @@ const NavBar = () => {
   return (
     <nav className="navbar">
       <div className="navbar-logo" onClick={reloadPage} style={{ cursor: 'pointer' }}>
-        <img src="./img/logo.png" alt="Company Logo" />
+        <img src="https://firebasestorage.googleapis.com/v0/b/despachos-meli-novogar.appspot.com/o/Novogar%2FNovogar-logo.png?alt=media&token=9f534184-2944-4b2c-a4be-6e763ee59bc1" alt="ElectroGar" />
       </div>
       <div className={`navbar-links ${isOpen ? 'open' : ''}`}>
         <a href="#Ofertas">
